@@ -1,2 +1,2 @@
 # More Vault TP
- Ressourcepack that works with More Vault DP
+ Resourcepack that works with More Vault DP
