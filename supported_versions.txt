@@ -1,1 +1,1 @@
-[1.21,1.21.1,1.21.2]
+update main.yml and supported_versions.txt
