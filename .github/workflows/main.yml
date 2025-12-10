@@ -4,11 +4,8 @@ on:
     tags:
       - '*'
     branches-ignore:
-      - 'java-latest'
-      - '1.21.3'
-      - '1.21.4'
-      - '16x'
-      - '32x'
+      - '*'
+
 jobs:
   zip:
     runs-on: ubuntu-latest
@@ -24,7 +21,7 @@ jobs:
           cd src
           tag=${{github.ref_name}}
           echo "tag=$tag" >> $GITHUB_ENV
-          echo "name=more-vault-tp" >> $GITHUB_ENV
+          echo "name=better-tricky-trials-tp" >> $GITHUB_ENV
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -44,7 +41,7 @@ jobs:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: HB70EIS0
           game-version-filter: none
-          name: More Vault TP ${{env.tag}}
+          name: Better Tricky Trials TP ${{env.tag}}
           version: ${{env.tag}}
           files: |
             src/${{env.name}}-${{env.tag}}.zip
