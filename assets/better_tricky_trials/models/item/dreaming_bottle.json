@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "more_vault:item/dreaming_bottle"
+    "layer0": "better_tricky_trials:item/dreaming_bottle"
   }
 }

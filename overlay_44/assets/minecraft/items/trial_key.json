@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "entries": [
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "better_tricky_trials:item/bastion_key"
+                },
+                "threshold": 1
+            },
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "better_tricky_trials:item/city_key"
+                },
+                "threshold": 2
+            },
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "better_tricky_trials:item/echo_key"
+                },
+                "threshold": 3
+            },
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "better_tricky_trials:item/woodland_key"
+                },
+                "threshold": 4
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/ominous_trial_key"
+        },
+        "property": "minecraft:custom_model_data"
+    }
+}
