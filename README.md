@@ -1,2 +1,2 @@
-# More Vault TP
- Resourcepack that works with More Vault DP
+# Better Tricky Trials TP
+ Resourcepack that works with Better Tricky Trials DP
