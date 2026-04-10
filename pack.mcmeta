@@ -1,9 +1,9 @@
 {
 	"pack": {
-		"pack_format": 75,
-    	"supported_formats": [36,75],
+		"pack_format": 84,
+    	"supported_formats": [36,84],
 		"min_format": [36,0],
-		"max_format": [75,0],
+		"max_format": [84,0],
 		"description": "Better Tricky Trials"
 	},
 	"overlays": {
@@ -15,9 +15,9 @@
 				"directory": "overlay_36"
 			},
             {
-				"formats": [44,75],
+				"formats": [44,84],
 				"min_format": [44,0],
-				"max_format": [75,0],
+				"max_format": [84,0],
 				"directory": "overlay_44"
 			}
         ]
